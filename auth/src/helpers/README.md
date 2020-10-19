@@ -1,0 +1,1 @@
+simple helper js functions

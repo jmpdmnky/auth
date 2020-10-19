@@ -1,0 +1,1 @@
+Store any fixed assets like images, etc here

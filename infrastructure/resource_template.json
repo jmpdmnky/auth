@@ -1,0 +1,36 @@
+{
+    "website_bucket": {
+        "service": "s3",
+        "type": "bucket",
+        "attributes": {
+            "Bucket": "kanban-cognito-test2-${session:stage}",
+            "WebsiteConfiguration": {
+                "IndexDocument": {
+                    "Suffix": "index.html"
+                }
+            }
+        }
+    },
+    "website_code": {
+        "service": "s3",
+        "type": "object",
+        "attributes": {
+            "AccessControlPolicy": {
+                "Grants": [
+                    {
+                        "Grantee": 
+                        {
+                            "Type": "Group", 
+                            "URI": "http://acs.amazonaws.com/groups/global/AllUsers"
+                        }, 
+                        "Permission": "READ"
+                    }
+                ]
+            },
+            "GrantRead": "uri=http://acs.amazonaws.com/groups/global/AllUsers",
+            "Bucket": "${resource.name:website_bucket}", 
+            "source": "../auth/dist/",
+            "prefix": ""
+        }
+    }
+}

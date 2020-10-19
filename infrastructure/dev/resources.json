@@ -1,0 +1,36 @@
+{
+    "website_bucket": {
+        "name": "kanban-cognito-test2-dev",
+        "location": "/kanban-cognito-test2-dev",
+        "arn": "arn:aws:s3:::kanban-cognito-test2-dev",
+        "website": "http://kanban-cognito-test2-dev.s3-website-us-east-1.amazonaws.com"
+    },
+    "website_code": {
+        "bucket": "kanban-cognito-test2-dev",
+        "keys": [
+            "index.html",
+            "logo.png",
+            "css/2.960128d1cb344b73c6cd.css",
+            "js/0.960128d1cb344b73c6cd.chunk.js",
+            "js/10.960128d1cb344b73c6cd.chunk.js",
+            "js/11.960128d1cb344b73c6cd.chunk.js",
+            "js/11.960128d1cb344b73c6cd.chunk.js.gz",
+            "js/12.960128d1cb344b73c6cd.chunk.js",
+            "js/13.960128d1cb344b73c6cd.chunk.js",
+            "js/13.960128d1cb344b73c6cd.chunk.js.gz",
+            "js/14.960128d1cb344b73c6cd.chunk.js",
+            "js/2.960128d1cb344b73c6cd.chunk.js",
+            "js/2.960128d1cb344b73c6cd.chunk.js.gz",
+            "js/3.960128d1cb344b73c6cd.chunk.js",
+            "js/3.960128d1cb344b73c6cd.chunk.js.gz",
+            "js/4.960128d1cb344b73c6cd.chunk.js",
+            "js/5.960128d1cb344b73c6cd.chunk.js",
+            "js/5.960128d1cb344b73c6cd.chunk.js.gz",
+            "js/6.960128d1cb344b73c6cd.chunk.js",
+            "js/7.960128d1cb344b73c6cd.chunk.js",
+            "js/8.960128d1cb344b73c6cd.chunk.js",
+            "js/9.960128d1cb344b73c6cd.chunk.js",
+            "js/960128d1cb344b73c6cd.js"
+        ]
+    }
+}
